@@ -1,5 +1,3 @@
-/* Professional Enhanced CSS */
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 * {
@@ -754,7 +752,6 @@ body {
   from { width: 0%; }
 }
 
-/* Badge */
 .badge {
   display: inline-block;
   padding: 0.35rem 0.75rem;
@@ -780,9 +777,7 @@ body {
   color: white;
 }
 
-/* ============================================
-   DARK MODE STYLES
-   ============================================ */
+/* ======= For Dark mode styles =======*/
 
 .dark-mode {
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);

@@ -20,19 +20,16 @@ function App() {
       setIsAuthenticated(true);
     }
 
-    // Load dark mode preference
     const savedDarkMode = localStorage.getItem('darkMode') === 'true';
     setDarkMode(savedDarkMode);
   }, []);
 
-  // Apply dark mode to body
   useEffect(() => {
     if (darkMode) {
       document.body.classList.add('dark-mode');
     } else {
       document.body.classList.remove('dark-mode');
     }
-    // Save preference
     localStorage.setItem('darkMode', darkMode);
   }, [darkMode]);
 
